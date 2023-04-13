@@ -51,7 +51,7 @@ const Menu = ({setShowMenu, selectShowMenu, showMenu}) => {
             <a href="/signup" onClick={onClickHandler}>
               <BiUserPlus/>&nbsp;Editar Cuenta
             </a>
-          </li>
+          </li> 
           <li>
             <a href="/signup" onClick={onClickHandler}>
               <BiUserPlus/>&nbsp;Eliminar Cuenta
