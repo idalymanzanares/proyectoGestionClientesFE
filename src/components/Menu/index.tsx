@@ -42,6 +42,21 @@ const Menu = ({setShowMenu, selectShowMenu, showMenu}) => {
               <BiUserPlus/>&nbsp;Crear Cuenta
             </a>
           </li>
+          <li>
+            <a href="/signup" onClick={onClickHandler}>
+              <BiUserPlus/>&nbsp;Agregar Cuenta
+            </a>
+          </li>
+          <li>
+            <a href="/signup" onClick={onClickHandler}>
+              <BiUserPlus/>&nbsp;Editar Cuenta
+            </a>
+          </li>
+          <li>
+            <a href="/signup" onClick={onClickHandler}>
+              <BiUserPlus/>&nbsp;Eliminar Cuenta
+            </a>
+          </li>
         </ul>
       </nav>
     );
